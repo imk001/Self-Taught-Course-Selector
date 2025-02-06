@@ -23,10 +23,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         var courseLinks ={
             "cs50": "https://cs50.harvard.edu/x/",             // CS50: Introduction to Computer Science
-            "medicine": "https://www.diploma-msc.com/p/diploma-in-medical-education-wolverhampton",         // Introduction to Medicine
-            "civil": "https://www.civilengineeringcourses.com",  // Introduction to Civil Engineering
-            "ux": "https://www.coursera.org/professional-certificates/google-ux-design",                     // Designing UX
-            "ecommerce": "https://www.udemy.com/course/best-ecommerce-marketing-course-agency-affiliate-freelancer-social-ads/?couponCode=2021PM25"       // Ecommerce
+      "medicine": "https://www.diploma-msc.com/p/diploma-in-medical-education-wolverhampton", // Introduction to Medicine
+      "civil": "https://www.civilengineeringcourses.com",  // Introduction to Civil Engineering
+      "ux": "https://www.coursera.org/professional-certificates/google-ux-design",               // Designing UX
+      "ecommerce": "https://www.udemy.com/course/best-ecommerce-marketing-course-agency-affiliate-freelancer-social-ads/?couponCode=2021PM25" // Ecommerce // Ecommerce
         };
 
         var link = courseLinks [selectedCourse];
