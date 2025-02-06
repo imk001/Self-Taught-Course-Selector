@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Taught Course Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Self-Taught Course Selector</h1>
+        <form id="courseForm">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <!--input for the user level of education-->
+            <label for="education--">Level of Education:</label>
+            <select type="text" id="education" name="education" required>
+                <option value="">Select your education level</option>
+  <option value="highSchool">High School</option>
+  <option value="diploma">Diploma</option>
+  <option value="undergraduate">Undergraduate</option>
+  <option value="graduate">Graduate</option>
+  <option value="postgraduate">Postgraduate</option>
+
+            </select>
+
+                <!--dropdown for course selection-->
+                <label for="course">Choose a Course</label>
+                <select id="course"name="course" required>
+                    <option value="">Select a course</option>
+                    <option value="cs50">CS50: Introduction to Computer Science</option>
+                    <option value="medicine">Introduction to Medicine</option>
+                    <option value="civil">Introduction to Civil Engineering</option>
+                    <option value="ux">Designing UX</option>
+                    <option value="ecommerce">Ecommerce</option>
+                </select>
+                <button type="button" id="showCourseBtn">Show My Course</button>
+
+        </form>
+        <div id="courseLink"></div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

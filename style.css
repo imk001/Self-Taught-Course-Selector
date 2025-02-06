@@ -1,0 +1,59 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 80%;
+    max-width: 600px;
+    margin: 40px;
+    background-color: azure;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    color: darkgray;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+form input, form select{
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+form button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: darkgray;
+
+}
+
+#courseLink{
+    margin-top: 20PX;
+    font-size: 1.2em;
+    text-align: center;
+    color: blue;
+}
